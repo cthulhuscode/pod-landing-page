@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Pod</title>
+</head>
+
+<body>
+  <div class="hero">
+    <img class="hero__icon" src="./assets/logos/logo.svg">
+
+    <picture class="hero-image">
+      <source src="./assets/desktop/image-host.jpg">
+      <source src="./assets/tablet/image-host.jpg">
+      <source src="./assets/mobile/image-host.jpg">
+      <img class="hero__image" src="./assets/desktop/image-host.jpg" alt="podcast host">
+    </picture>
+
+    <section class="hero__info">
+      <h1 class="hero__primary-text"><span class="hero__primary-text--green">Publish your podcasts</span>
+        everywhere.</h1>
+
+      <p class="hero__secondary-text">Upload your audio to Pod with a single click. We’ll then distribute your podcast
+        to Spotify, Apple Podcasts,
+        Google Podcasts, Pocket Casts and more!</p>
+
+      <div class="hero-input">
+        <input class="hero__input" type="email" placeholder="Email address">
+        <button class="input__btn">Request Access</button>
+        <span class="input__error">Oops! Please check your email</span>
+      </div>
+
+      <div class="hero__social">
+        <img class="social__icon" src="./assets/logos/spotify.svg" alt="spotify">
+        <img class="social__icon" src="./assets/logos/apple-podcast.svg" alt="apple podcasts">
+        <img class="social__icon" src="./assets/logos/google-podcasts.svg" alt="google podcasts">
+        <img class="social__icon" src="./assets/logos/pocket-casts.svg" alt="pocket casts">
+      </div>
+
+    </section>
+
+    <div class="hero__dots">
+      <img class="dots__img" src="./assets/logos/bg-pattern-dots.svg">
+    </div>
+
+  </div>
+</body>
+
+</html>
