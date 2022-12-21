@@ -280,6 +280,9 @@ body{
   .input__btn{
     position: unset;
   }
+  .input__error{    
+    padding: 0;
+  }
 
   .hero__social{
     max-width: max-content;
@@ -348,7 +351,8 @@ body{
   }
   .hero-input{
     order: 4;
-  }  
+  }    
+
   .hero__social{
     margin-top: 33px;
     order: 3;
